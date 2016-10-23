@@ -14,4 +14,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "8.0"
   s.description  = "Elegant view layout for iOS :leaves: - Auto layout code finally readable by a human being"
   s.module_name = 'Stevia'
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3.0' }
 end
